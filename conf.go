@@ -2,9 +2,9 @@ package main
 
 import (
 	"errors"
+	"github.com/martini-contrib/oauth2"
 	"gopkg.in/yaml.v1"
 	"io/ioutil"
-	"github.com/martini-contrib/oauth2"
 )
 
 const (

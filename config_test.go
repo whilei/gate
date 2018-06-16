@@ -1,10 +1,10 @@
 package main
 
 import (
+	"github.com/martini-contrib/oauth2"
 	"io/ioutil"
 	"os"
 	"testing"
-	"github.com/martini-contrib/oauth2"
 )
 
 func TestParse(t *testing.T) {
